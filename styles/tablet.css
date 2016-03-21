@@ -1,3 +1,22 @@
-@media (min-width: 690px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .first_picture{
+        display: inline-block;
+        width: 236px;
+        height: 400px;
+        background: no-repeat center/cover url("../images/HIWL.png");
 
+    }
+    .second_picture{
+        margin: 0px;
+        display: inline-block;
+        width: 236px;
+        height: 400px;
+        background: no-repeat center/cover url("../images/HIWC.png");
+    }
+    .third_picture{
+        display: inline-block;
+        width: 236px;
+        height: 400px;
+        background: no-repeat center/cover url("../images/HIWR.png");
+    }
 }

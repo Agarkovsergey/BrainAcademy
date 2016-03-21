@@ -71,18 +71,21 @@
 }
 .first_picture{
     display: inline-block;
+    width: 300px;
     height: 400px;
     background: no-repeat center/cover url("../images/HIWL.png");
 
 }
 .second_picture{
-    margin: 0 20px;
+    margin: 0 15px;
     display: inline-block;
+    width: 300px;
     height: 400px;
     background: no-repeat center/cover url("../images/HIWC.png");
 }
 .third_picture{
     display: inline-block;
+    width: 300px;
     height: 400px;
     background: no-repeat center/cover url("../images/HIWR.png");
 }
