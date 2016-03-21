@@ -1,0 +1,50 @@
+@media (min-width: 300px) and (max-width: 690px) {
+    #promo{
+        height: 540px;
+    }
+    .promo_buttons,
+    .promo_logo{
+        display: block;
+        text-align: center;
+        float:none;
+        margin-top:0;
+    }
+    .promo_header{
+        text-align: center;
+        height: 260px;
+    }
+    .promoContentTop{
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: MontserratBold;;
+    }
+    .promoContentCenter{
+        font-family: RobotoLight;
+        font-size: 18px;
+    }
+    .promoContentBottom{
+        margin: 2% 15% 2% 15%;
+        text-align: center;
+        font-size: 14px;
+        background-color: #ff4e50;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+.first_picture{
+    display: inline-block;
+    height: 240px;
+    background: no-repeat center/cover url("../images/HIWL.png");
+
+}
+.second_picture{
+    margin: 0 10px;
+    display: inline-block;
+    height: 240px;
+    background: no-repeat center/cover url("../images/HIWC.png");
+}
+.third_picture{
+    display: inline-block;
+    height: 240px;
+    background: no-repeat center/cover url("../images/HIWR.png");
+}
