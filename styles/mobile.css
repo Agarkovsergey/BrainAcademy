@@ -30,6 +30,9 @@
         padding: 10px;
         border-radius: 20px;
     }
+    #How_it_works{
+        padding-bottom: 35px;
+    }
     .first_picture{
         display: inline-block;
         width: 300px;
@@ -49,5 +52,58 @@
         width: 300px;
         height: 240px;
         background: no-repeat center/cover url("../images/HIWR.png");
+    }
+    .arrow_left{
+        display: none;
+    }
+    .arrow_right {
+        display: none;
+    }
+    .partner_title{
+        padding-bottom: 25px;
+    }
+    .partners{
+        height: auto;
+        position: static;
+        width: 300px;
+    }
+    .first_partner, .second_partner, .third_partner, .fourth_partner{
+        display: block;
+        position: static;
+        margin:0px 10px;
+    }
+    .footerLeft, .footerCenterLeft, .footerCenterRight, .footerRight{
+        display: block;
+    }
+    .footerLeft{
+        text-align: center;
+        float: none;
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+    .footerCenterLeft{
+        text-align: center;
+        padding-right: 0px;
+        float: none;
+    }
+    .footerCenterLeft p{
+        padding-right: 5px;
+       display: inline-block;
+    }
+    .footerCenterRight{
+        text-align: center;
+        padding-right: 0px;
+        float: none;
+        padding-bottom: 15px;
+    }
+    .footerRight{
+        text-align: center;
+        padding-right: 0px;
+        float: none;
+    }
+    .footerRight p{
+        color: #d7d7d7;
+        font-size: 10px;
+        font-family: MontserratBold;
     }
 }

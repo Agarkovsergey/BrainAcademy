@@ -61,22 +61,24 @@
     border-radius: 20px;
 }
 #How_it_works{
-    border: 1px solid black;
     padding: 0px;
+    padding-bottom: 100px;
 }
 .How_It_Works_title{
     text-align: center;
     font-size: 22px;
     font-family: MontserratBold;
 }
+
 .first_picture{
+    color: #ffffff;
     display: inline-block;
     width: 300px;
     height: 400px;
     background: no-repeat center/cover url("../images/HIWL.png");
-
 }
 .second_picture{
+    color: #ffffff;
     margin: 0 15px;
     display: inline-block;
     width: 300px;
@@ -84,8 +86,229 @@
     background: no-repeat center/cover url("../images/HIWC.png");
 }
 .third_picture{
+    color: #ffffff;
     display: inline-block;
     width: 300px;
     height: 400px;
     background: no-repeat center/cover url("../images/HIWR.png");
 }
+.first_picture, .second_picture, .third_picture{
+    position: relative;
+}
+.first_picture_content, .second_picture_content, .third_picture_cotent{
+    position: absolute;
+    bottom: 0px;
+}
+
+.arrow_left, .arrow_right, .step_bottons, .picture_headers, .picture_text{
+    display: inline-block;
+}
+.arrow_left{
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.arrow_right{
+    float: right;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.arrow_left:before,
+.arrow_left:after,
+.arrow_right:before,
+.arrow_right:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.step_bottons{
+    padding: 10px 15px 10px 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+}
+.picture_headers{
+    padding: 0px 20px 0px 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: MontserratBold;
+}
+.picture_text{
+    padding: 0px 15px 5px 15px;
+    margin: 0px;
+    font-family: RobotoLight;
+    font-size: 14px;
+}
+#partners_info{
+    margin-bottom: 100px;
+}
+.partner_title{
+    text-align: center;
+    font-size: 22px;
+    font-family: MontserratBold;
+    padding-bottom: 45px;
+}
+.partners{
+    height: 280px;
+    position: relative;
+    padding-bottom: 35px;
+
+}
+.first_partner, .second_partner, .third_partner, .fourth_partner{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    margin:0px 10px;
+}
+.first_partner{
+    left: 0px;
+}
+.second_partner{
+    left: 220px;
+}
+.third_partner{
+    left: 460px;
+}
+.fourth_partner{
+    left: 700px;
+}
+
+.krujok_Tv{
+
+}
+.krujok_Coffe{
+
+}
+.krujok_Chemestry{
+
+}
+.krujok_Samolet{
+
+}
+.partner_name{
+    text-align: center;
+    font-family: MontserratBold;
+    font-size: 14px;
+}
+.comment{
+    text-align: center;
+    font-family: RobotoLight;
+    font-size: 14px;
+}
+.first_partner_picture, .second_partner_picture, .third_partner_picture, .fourth_partner_picture{
+    margin: auto;
+    width: 125px;
+    height: 125px;
+}
+.first_partner_picture{
+    background: no-repeat center/cover url("../images/Mujik2.png");
+}
+.second_partner_picture{
+    background: no-repeat center/cover url("../images/Podruga2.png");
+}
+.third_partner_picture{
+    background: no-repeat center/cover url("../images/Mujik.png");
+}
+.fourth_partner_picture{
+    background: no-repeat center/cover url("../images/Podruga.png");
+}
+.partners_buttons{
+    text-align: center;
+}
+.partners_buttons a{
+    text-decoration: none;
+    color: #ff4e50;
+    border: 3px solid #ff4e50;
+    border-radius: 35px;
+    font-family: MontserratBold;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+    border-top: 1px solid #ff4e50;
+}
+.mainfooter{
+    padding-top: 40px;
+}
+.footerLeft, .footerCenterLeft, .footerCenterRight, .footerRight{
+    display: inline-block;
+
+}
+.footerLeft{
+    font-size: 16px;
+    font-family: MontserratBold;
+    color: #ff4e50;
+    float: left;
+    padding-right: 100px;
+}
+.footerCenterLeft{
+    font-size: 14px;
+    font-family: MontserratBold;
+    padding-right: 100px;
+    float: left;
+}
+.footerCenterRight{
+    font-size: 14px;
+    font-family: MontserratBold;
+    float: left;
+}
+.footerRight{
+    float: right;
+}
+.footerRight p{
+    text-align: right;
+    color: #d7d7d7;
+    font-size: 10px;
+    font-family: MontserratBold;
+}
+
+/*чистка после float*/
+.footerLeft:before,
+.footerLeft:after,
+.footerCenterLeft:before,
+.footerCenterLeft:after,
+.footerCenterRight:before,
+.footerCenterRight:after,
+.footerRight:before,
+.footerRight:after,{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footerCenterRight>p{
+    margin: 0px;
+}
+
+.footerCenterLeft>p{
+    font-size: 14px;
+    font-family: RobotoLight;
+}
+
+
+
