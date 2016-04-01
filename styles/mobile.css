@@ -64,13 +64,65 @@
     }
     .partners{
         height: auto;
-        position: static;
+        position: relative;
         width: 300px;
+    }
+    .first_partner, .second_partner, .third_partner, .fourth_partner{
+        position: relative;
+    }
+    .krujok_Tv{
+        position: absolute;
+        top : 90px;
+        left : 170px;
+    }
+    .krujok_Coffe{
+        position: absolute;
+        top : 315px;
+        left : 170px;
+    }
+    .krujok_Chemestry{
+        position: absolute;
+        top : 540px;
+        left : 170px;
+    }
+    .krujok_Samolet{
+        position: absolute;
+        top : 795px;
+        left : 170px;
     }
     .first_partner, .second_partner, .third_partner, .fourth_partner{
         display: block;
         position: static;
         margin:0px 10px;
+    }
+    .Extreme_Sports_and_Expeditions{
+        margin-bottom: 5px;
+    }
+    .Culture_and_Education{
+        background: no-repeat center/cover url("../images/G4.png");
+        width: 300px;
+        height: 310px;
+        border-radius: 5px;
+    }
+    .Relaxation{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/g5png.png");
+        width: 300px;
+        height: 310px;
+    }
+    input{
+        display: block;
+        width: 300px;
+        height: 40px;
+        margin: auto;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .mail_button{
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
     }
     .footerLeft, .footerCenterLeft, .footerCenterRight, .footerRight{
         display: block;

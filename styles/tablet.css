@@ -1,22 +1,166 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .promoContentBottom{
+        margin: 2% 35% 2% 35%!important;
+    }
     .first_picture{
-        display: inline-block;
-        width: 236px;
-        height: 400px;
-        background: no-repeat center/cover url("../images/HIWL.png");
+        width: 236px !important;
+        height: 400px !important;
+        background: no-repeat center/cover url("../images/HIWL.png") !important;
 
     }
     .second_picture{
-        margin: 0px;
-        display: inline-block;
-        width: 236px;
-        height: 400px;
-        background: no-repeat center/cover url("../images/HIWC.png");
+        width: 236px !important;
+        height: 400px !important;
+        background: no-repeat center/cover url("../images/HIWC.png") !important;
     }
     .third_picture{
+        width: 236px !important;
+        height: 400px !important;
+        background: no-repeat center/cover url("../images/HIWR.png") !important;
+    }
+    .arrow_left{
+        display: inline-block !important;
+        float: left;
+        margin-right: 55px;
+        margin-bottom: 50px;
+    }
+    .arrow_right{
+        display: inline-block !important;
+        float: right;
+        margin-left: 55px;
+        margin-bottom: 50px;
+    }
+
+    .partners{
+        height: 515px!important;
+        width: auto!important;
+    }
+    .first_partner, .second_partner, .third_partner, .fourth_partner{
+        display: inline-block!important;
+        position: static!important;
+        margin: 0px!important;
+    }
+    .second_picture_content{
+        margin-bottom: 20px;
+    }
+    .krujok_Tv{
+        top : 90px!important;
+        left: 210px!important;
+    }
+    .krujok_Coffe{
+        top : 90px!important;
+        left: 585px!important;
+    }
+    .krujok_Chemestry{
+        top : 315px!important;
+        left: 210px!important;
+    }
+    .krujok_Samolet{
+        top : 315px!important;
+        left: 585px!important;
+    }
+    .Sport_and_Activity{
+        border-radius: 5px;
+        width: 236px!important;
+        height: 310px;
+        background: no-repeat center/cover url("../images/g0.png");
+    }
+    .Wellnes_and_Health{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/g1.png");
+        width: 240px!important;
+        height: 310px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .Extreme_Sports_and_Expeditions{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/g2.png");
+        width: 236px!important;
+        height: 310px;
         display: inline-block;
-        width: 236px;
-        height: 400px;
-        background: no-repeat center/cover url("../images/HIWR.png");
+        text-align: center;
+        padding-top: 120px;
+    }
+    .Extreme_Sports_and_Expeditions div{
+        color: #ffffff;
+        font-size: 22px;
+        font-family: MontserratBold;
+        margin-bottom: 5px;
+    }
+    .Games{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/G3.png");
+        width: 236px!important;
+        height: 310px;
+        margin-right: 3px;
+    }
+    .Culture_and_Education{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/G4.png");
+        width: 484px!important;
+        height: 310px;
+        border-radius: 5px;
+    }
+    .Relaxation{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/g5png.png");
+        width: 484px!important;
+        height: 310px;
+    }
+    .Travelling{
+        border-radius: 5px;
+        background: no-repeat center/cover url("../images/G6.png");
+        width: 236px!important;
+        height: 310px;
+        margin-left: 3px;
+    }
+    input{
+        display: inline-block!important;
+        width: 240px!important;
+        height: 40px!important;
+        margin-left: 180px!important;
+    }
+
+    .mail_button{
+        display: inline-block!important;
+        width: 170px!important;
+        padding: 15px 15px;
+        margin-top: 0px!important;
+    }
+    .footerLeft, .footerCenterLeft, .footerCenterRight, .footerRight{
+        display: inline-block!important;
+    }
+    .footerLeft{
+        text-align: left!important;
+        float: left!important;
+        padding-right: 100px!important;
+        padding-bottom: 0px!important;
+    }
+    .footerCenterLeft{
+        text-align: left!important;
+        padding-right: 100px!important;
+        float: left!important;
+    }
+    .footerCenterLeft p{
+        padding-right: 5px;
+        display: block!important;
+    }
+    .footerCenterRight{
+        text-align: left!important;
+        padding-right: 0px;
+        float: left!important;
+        padding-bottom: 15px;
+    }
+    .footerRight{
+        text-align: left!important;
+        padding-right: 0px;
+        float: right!important;
+    }
+    .footerRight p{
+        color: #d7d7d7;
+        font-size: 10px;
+        font-family: MontserratBold;
     }
 }

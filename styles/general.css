@@ -26,7 +26,8 @@ ul, li{
 }
 @media (min-width:768px) {
     .container{
-        width: 768px;}
+        width: 768px;
+    }
 }
 @media (min-width:1024px) {
     .container{
@@ -82,7 +83,7 @@ ul, li{
         width: 100%;
     }
 }
-@media (min-width: 690px) {
+@media (min-width: 768px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
         float: left;
     }
@@ -167,8 +168,8 @@ ul, li{
 
 .cotainer:before,
 .container:after,
-.row:before,
-.row:after{
+.col-md-6:before,
+.col-md-6:after{
     content: "";
     display: table;
     clear: both;

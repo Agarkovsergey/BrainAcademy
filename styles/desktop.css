@@ -3,6 +3,7 @@
 #promo{
     height: 700px;
     background: no-repeat center/cover url(../images/promo.png);
+    margin-bottom: 100px;
 }
 .promo_header{
     height: 150px;
@@ -55,6 +56,7 @@
 .promoContentBottom{
     margin: 2% 35% 2% 35%;
     text-align: center;
+    font-family: MontserratBold;
     font-size: 14px;
     background-color: #ff4e50;
     padding: 10px;
@@ -97,7 +99,9 @@
 }
 .first_picture_content, .second_picture_content, .third_picture_cotent{
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
+    left:20px;
+    right:20px;
 }
 
 .arrow_left, .arrow_right, .step_bottons, .picture_headers, .picture_text{
@@ -105,12 +109,14 @@
 }
 .arrow_left{
     float: left;
-    margin-right: 100px;
+    /*padding-left: 20px;*/
+    /*margin-right: 100px;*/
     margin-bottom: 50px;
 }
 .arrow_right{
     float: right;
-    margin-left: 100px;
+    /*padding-right: 20px;*/
+    /*margin-left: 100px;*/
     margin-bottom: 50px;
 }
 .arrow_left:before,
@@ -122,40 +128,38 @@
     clear: both;
 }
 .step_bottons{
-    padding: 10px 15px 10px 15px;
-    margin-left: 10px;
+    padding: 5px 20px;
+    /*margin-left: 10px;*/
     text-align: center;
     font-size: 14px;
     background-color: #ff4e50;
     border-radius: 20px;
 }
 .picture_headers{
-    padding: 0px 20px 0px 20px;
-    margin: 0px;
-    margin-bottom: 10px;
+    /*padding: 0px 20px 0px 20px;*/
+    margin: 10px 0px 10px 0px;
     font-size: 24px;
     font-family: MontserratBold;
 }
 .picture_text{
-    padding: 0px 15px 5px 15px;
+    /*padding: 0px 15px 5px 15px;*/
     margin: 0px;
     font-family: RobotoLight;
     font-size: 14px;
+    color: #afaeac;
 }
 #partners_info{
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 .partner_title{
     text-align: center;
     font-size: 22px;
     font-family: MontserratBold;
-    padding-bottom: 45px;
 }
 .partners{
     height: 280px;
     position: relative;
     padding-bottom: 35px;
-
 }
 .first_partner, .second_partner, .third_partner, .fourth_partner{
     display: inline-block;
@@ -177,16 +181,44 @@
 }
 
 .krujok_Tv{
-
+    position: absolute;
+    top : 90px;
+    left : 135px;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../images/Samolet4.png");
 }
 .krujok_Coffe{
-
+    position: absolute;
+    top : 90px;
+    left : 135px;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../images/samolet2.png");
 }
 .krujok_Chemestry{
-
+    position: absolute;
+    top : 90px;
+    left : 135px;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../images/samolet1.png");
 }
 .krujok_Samolet{
-
+    position: absolute;
+    top : 90px;
+    left : 135px;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../images/Samolet.png");
 }
 .partner_name{
     text-align: center;
@@ -195,6 +227,7 @@
 }
 .comment{
     text-align: center;
+    color: #969696;
     font-family: RobotoLight;
     font-size: 14px;
 }
@@ -216,6 +249,7 @@
     background: no-repeat center/cover url("../images/Podruga.png");
 }
 .partners_buttons{
+    margin-top: 35px;
     text-align: center;
 }
 .partners_buttons a{
@@ -229,24 +263,111 @@
 }
 
 
+#ideas{
+    margin-bottom: 100px;
+}
+.ideas_title{
+    text-align: center;
+    font-size: 22px;
+    font-family: MontserratBold;
+    margin-bottom: 30px;
+}
+.idea_photo{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: MontserratBold;
+    margin-bottom: 5px;
+    line-height: 310px;
+}
+.Sport_and_Activity{
+    width: 300px;
+    height: 310px;
+    background: no-repeat center/cover url("../images/g0.png");
+}
+.Wellnes_and_Health{
+    background: no-repeat center/cover url("../images/g1.png");
+    width: 300px;
+    height: 310px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.Extreme_Sports_and_Expeditions{
+    background: no-repeat center/cover url("../images/g2.png");
+    width: 300px;
+    height: 310px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 120px;
+}
+.Extreme_Sports_and_Expeditions div{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: MontserratBold;
+    margin-bottom: 5px;
+}
+.Games{
+    background: no-repeat center/cover url("../images/G3.png");
+    width: 300px;
+    height: 310px;
+    margin-right: 3px;
+}
+.Culture_and_Education{
+    background: no-repeat center/cover url("../images/G4.png");
+    width: 608px;
+    height: 310px;
+    border-radius: 5px;
+}
+
+.Relaxation{
+    border-radius: 5px;
+    background: no-repeat center/cover url("../images/g5png.png");
+    width: 608px;
+    height: 310px;
+}
+.Travelling{
+    background: no-repeat center/cover url("../images/G6.png");
+    width: 300px;
+    height: 310px;
+    margin-left: 3px;
+}
+
+#sendMesege{
+    margin-bottom: 100px;
+}
+.title_toform{
+    text-align: center;
+    font-size: 22px;
+    font-family: MontserratBold;
+}
+.question{
+    margin: 35px 0px;
+    text-align: center;
+    font-family: RobotoLight;
+    font-size: 14px;
+}
+input{
+    height: 40px;
+    width: 240px;
+    display: inline-block;
+    margin-left: 250px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.mail_button{
+    display: inline-block;
+    color: #ffffff;
+    width: 160px;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    text-align: center;
+    font-size: 14px;
+    background-color: #ff4e50;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
 
 
 /*footer*/
@@ -272,6 +393,9 @@
     font-family: MontserratBold;
     padding-right: 100px;
     float: left;
+}
+.footerCenterLeft p{
+    color: #c0c0c0;
 }
 .footerCenterRight{
     font-size: 14px;
